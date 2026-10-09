@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="ru" className={`${manrope.variable} ${unbounded.variable}`}>
       <head>
+        <meta name="yandex-verification" content="6c139574a1d45923" />
         <title>Lucky Bear Casino — LuckyBear Casino официальный сайт: зеркало, вход, бонусы</title>
         <meta
           name="description"
